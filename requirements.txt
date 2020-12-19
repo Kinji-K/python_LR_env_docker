@@ -1,0 +1,6 @@
+setuptools
+Requests
+Beautifulsoup4
+openpyxl
+pydrive
+google-auth-oauthlib

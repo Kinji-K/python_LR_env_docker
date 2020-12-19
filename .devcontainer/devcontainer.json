@@ -1,0 +1,12 @@
+﻿{
+    "name": "Remote-python",
+    "dockerComposeFile": [
+        "../docker-compose.yml"
+    ],
+    "service": "python3",
+    "workspaceFolder": "/opt/LR",
+    "remoteUser": "user",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    }
+}

@@ -1,0 +1,14 @@
+version: '3'
+services:
+   python3:
+     restart: always
+     build:
+       context: .
+       args:
+         UID: $UID
+         GID: $GID
+     container_name: 'python3'
+     working_dir: '/opt/LR'
+     tty: true
+     volumes:
+        - ./LR:/opt/LR
